@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn{
+    @apply bg-black rounded shadow text-white cursor-pointer uppercase;
+}

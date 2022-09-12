@@ -6,7 +6,7 @@ function Header() {
             <ul className="md:flex">
                 <li className="m-2 p-2"><Link to='/'>Home</Link></li>
                 <li className="m-2 p-2"><Link to='/about'>About</Link></li>
-                <li className="m-2 p-2"><Link to='/'>Our Services</Link></li>
+                <li className="m-2 p-2"><Link to='/our-services'>Our Services</Link></li>
                 <li className="m-2 p-2"><Link to='/'>Gallery</Link></li>
                 <li className="m-2 p-2"><Link to='/book-now'>Book Now</Link></li>
                 <li className="m-2 p-2"><Link to='/'>Team</Link></li>

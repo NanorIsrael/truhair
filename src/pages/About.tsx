@@ -71,7 +71,7 @@ function About() {
           </div>
               <label htmlFor='name'>Message:</label>
               <textarea rows={5} name={'message'} placeholder="MESSAGE" className="block w-full p-2 rounded shadow"/>
-              <input type="submit" className="bg-black w-full p-2 rounded shadow text-white mt-4"/>
+              <input type="submit" className="btn w-full p-2 mt-4"/>
 
         </fieldset>
         </form>
