@@ -12,3 +12,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* input:invalid {
+  border: 1px solid red;
+  box-shadow: 1px 1px 4px #fd0303
+} */
+
+/* 
+input:valid {
+  border: 1px solid #98E317;
+} */
+
+input:focus, textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #FBC103;
+}
+
+ .field {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  margin-bottom: 1.5em;
+} 
+
+label, input, textarea{
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+
+input:placeholder-shown + label, textarea:placeholder-shown + label{
+  cursor: text;
+  max-width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform-origin: -2.125rem 0;
+  transform: translate(0, 2.125rem) scale(1.25);
+} 
+
+input:not(:placeholder-shown) + label,
+input:focus + label,
+textarea:not(:placeholder-shown) + label,
+textarea:focus + label {
+  transform: translate(0, 0) scale(1);
+  cursor: pointer;
+}
