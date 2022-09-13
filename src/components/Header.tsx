@@ -9,7 +9,7 @@ function Header() {
                 <li className="m-2 p-2"><Link to='/our-services'>Our Services</Link></li>
                 <li className="m-2 p-2"><Link to='/'>Gallery</Link></li>
                 <li className="m-2 p-2"><Link to='/book-now'>Book Now</Link></li>
-                <li className="m-2 p-2"><Link to='/'>Team</Link></li>
+                <li className="m-2 p-2"><Link to='/team'>Team</Link></li>
                 <li className="m-2 p-2"><Link to='/'>Contact</Link></li>
             </ul>
         </nav>
