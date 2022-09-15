@@ -13,6 +13,15 @@ code {
     monospace;
 }
 
+.layout-cta {
+  padding-top: 4.5rem;
+}
+
+:root{
+  --primary-color: #FBC103;
+  --primary-dark: #000;
+
+}
 /* input:invalid {
   border: 1px solid red;
   box-shadow: 1px 1px 4px #fd0303
@@ -57,3 +66,5 @@ textarea:focus + label {
   transform: translate(0, 0) scale(1);
   cursor: pointer;
 }
+
+@import './css/header.css'
