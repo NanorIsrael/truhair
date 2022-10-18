@@ -4,5 +4,5 @@
 
 
 .btn{
-    @apply bg-black rounded shadow text-white cursor-pointer uppercase;
+    @apply bg-black rounded shadow text-white cursor-pointer uppercase py-1 px-4;
 }
