@@ -13,7 +13,7 @@ function BookNow() {
     return (
     <div className='bg-primary text-center text-white' >
         <div className="item-center w-90 block-center">
-            <p className="text-center pt-24 text-2xl">Click on the service you want, to book <strong>now!</strong></p>
+            <p className="text-center pt-24 text-2xl pb-8 md:pt-32">Click on the service you want, to book <strong>now!</strong></p>
             <div className="grid-cta">
                 { images.slice(0, visible).map(img => <Card img={img}/>)}
             </div>
