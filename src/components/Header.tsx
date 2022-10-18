@@ -13,7 +13,7 @@ const handleNav = () => settoggleNav(prev => !prev)
             <header>
                 <div className={`overlay ${toggleNave ? "" : "hideNav"}`} onClick={handleNav} ></div>
                 <div className="navbar bg-black text-white">
-                    <p className="nav-brand">TruHAIR</p>
+                    <p className="nav-brand">TruHAIR & BEAUTY</p>
                     <div className="mobile-menu " onClick={handleNav} >
                         <FontAwesomeIcon icon={faBars} /> 
                     </div>
