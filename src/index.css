@@ -20,6 +20,7 @@ img {
 }
 
 @import './css/header.css';
+@import './css/book_now.css';
 
 .layout-cta {
   padding-top: 0;
@@ -48,6 +49,11 @@ img {
 
 .primary-color {
   color: #FBC103 !important;
+}
+
+
+.bg-primary-color-light {
+  background-color: #F0E12E !important;
 }
 
 .bg-primary {
@@ -105,6 +111,8 @@ textarea:focus + label {
   cursor: pointer;
 }
 
+
+/* Layout */
 
 .grid-cta {
   display: block;
