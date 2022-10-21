@@ -20,6 +20,7 @@ img {
 }
 
 @import './css/header.css';
+@import './css/book_now.css';
 
 .layout-cta {
   padding-top: 0;
@@ -48,6 +49,11 @@ img {
 
 .primary-color {
   color: #FBC103 !important;
+}
+
+
+.bg-primary-color-light {
+  background-color: #F0E12E !important;
 }
 
 .bg-primary {
@@ -106,6 +112,8 @@ textarea:focus + label {
 }
 
 
+/* Layout */
+
 .grid-cta {
   display: block;
   /* grid-template-columns: repeat(4, 25%) ;
@@ -116,6 +124,7 @@ textarea:focus + label {
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: space-around;
   /* margin: 0 auto; */
 
 } 
