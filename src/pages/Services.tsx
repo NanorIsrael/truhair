@@ -49,10 +49,8 @@ function OurServices() {
           <button>book now</button>
         </section>
         <section>
-            <details>
-                <summary>
-                    <h3 className="bold">Will I be required to wash my hair when I come?</h3>
-                </summary>
+            <details className="bold">
+                <summary>Will I be required to wash my hair when I come?</summary>
                 <article className="text-sm">
                     <p>Yes, we do not work with damp hairs so we would ensure that you wash it before work commences. Your hair must be clean and dandruff free. Kindly note that, additional charges may be applied for the following:
                     Hair isn’t properly blown out - GH₵ 10.00
