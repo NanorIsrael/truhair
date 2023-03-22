@@ -1,12 +1,18 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Roboto',  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 code {
@@ -14,23 +20,37 @@ code {
     monospace;
 }
 
+/* .app {
+  display: grid;
+  grid-template-columns: 100%;
+  place-content: center;
+} */
+
+.app main {
+  scroll-margin-top: 8em;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+  padding: 8em 0;
+}
+
 img {
   display: block;
-  max-width: 100%
+  max-width: 100%;
+  height: auto;
 }
 
 @import './css/header.css';
 @import './css/book_now.css';
 
+
 .layout-cta {
   padding-top: 0;
 }
 
-.container {
-}
 .w-90{
   width: 90%;
-
 }
 
 .item-center{
@@ -42,9 +62,18 @@ img {
 } */
 
 :root{
+  /* COLORS */
   --primary-color: #FBC103;
   --primary-dark: #000;
 
+  /* SPACING */
+  --spacing-medium: 1em;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: source-code-pro "monospace";
+  text-transform: capitalize;
 }
 
 .primary-color {
@@ -125,8 +154,6 @@ textarea:focus + label {
    flex-direction: column;
    align-items: center;
    justify-content: space-around;
-  /* margin: 0 auto; */
-
 } 
 
 @media screen and (min-width: 675px) {
@@ -142,7 +169,45 @@ textarea:focus + label {
     max-width: 999px;
     margin: 0 auto;
   }
-
-
+}
+details {
+  margin: 1em 0;
+}
+summary {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  padding: .5em;
+  align-items: center;
+}
+summary::marker {
+   color: #F0E12E;
+   visibility: none !important;
+   content: "";
+}
+summary::after{
+  content: "+";
+  font-size: 1.5rem;
 }
 
+.app footer {
+  background-color: aquamarine;
+  position: sticky;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+/* min(calc(max(50%, var(100px, 45rem)) - 1em), 100%) */
+.two-col {
+  --gap-size: var(--spacing-medium);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  gap: 0 1em;
+}
+
+@media screen and (max-width: 998px) {
+  .two-col {
+    /* grid-template-columns: repeat(2, minmax(400px, 1fr)); */
+    display: block;
+  }
+}

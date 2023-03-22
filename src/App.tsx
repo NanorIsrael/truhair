@@ -1,6 +1,6 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom'
-import Home from './pages/Home';
+import {Home} from './pages/Home';
 import About from './pages/About';
 import BookNow from './pages/BookNow';
 import Services from './pages/Services';
