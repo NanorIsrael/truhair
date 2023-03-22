@@ -1,8 +1,7 @@
 import POST_ARTICLE from "../components/article";
-import Card from "../components/card";
 
 function OurServices() {
-    const images = [{photo:'Butterfly-braids.jpeg', name:'Butterfly Braids'}, {photo:'crocheting.jpg', name:'Crocheting'}, {photo:'distress-locks.jpg', name:'Distress-Locks'}, {photo:'gel-pony.jpg', name:'Gel Pony'}, {photo:'corn-row.jpg', name:'Corn Row'}, {photo:'boho.jpg', name:'Boho'}]
+    // const images = [{photo:'Butterfly-braids.jpeg', name:'Butterfly Braids'}, {photo:'crocheting.jpg', name:'Crocheting'}, {photo:'distress-locks.jpg', name:'Distress-Locks'}, {photo:'gel-pony.jpg', name:'Gel Pony'}, {photo:'corn-row.jpg', name:'Corn Row'}, {photo:'boho.jpg', name:'Boho'}]
     
     return <section className="bg-gray-100 mx-8 md:mx-16">
         <section className="py-4">

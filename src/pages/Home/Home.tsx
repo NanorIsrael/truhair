@@ -1,10 +1,10 @@
 import style from './home.module.css'
 
 
-
+// TODO: use a reusable component for services
 export function Home() {
     return(
-         <article className={style.container}>
+         <article className={style.home_page}>
            <h1>Book a service now!</h1>
            <div className='two-col mb-8'> 
            <section className='mt-8'>
@@ -53,6 +53,9 @@ export function Home() {
             </figure>
            </section>
            </div>
+           <section className={style.book_now_contact}>
+               <p className='text-center'>Call: <a href='tel:+233271053774'>+233271053774</a> or email: <a href='email:truhairnbeauty@gmail.com'>truhairnbeauty@gmail.com</a> to book a service <strong>now!</strong></p>
+           </section>
        </article>
       )
 } 

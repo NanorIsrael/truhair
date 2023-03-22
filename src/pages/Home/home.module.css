@@ -1,4 +1,4 @@
-.container {
+.home_page {
     /* padding-top: 5em; */
 }
 
@@ -22,4 +22,13 @@ figcaption {
 .card {
     border: 1px solid whitesmoke;
     box-shadow: 1px 2px whitesmoke;
+}
+
+.book_now_contact a {
+    font-weight: 900;
+    color: rgb(255, 170, 0);
+}
+
+.book_now_contact a:hover {
+    color:  rgba(255, 170, 0, 0.8);
 }

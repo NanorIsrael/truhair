@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { format } from "url";
+import { useState } from "react";
 import Card from "../components/card";
 
 function About() {
